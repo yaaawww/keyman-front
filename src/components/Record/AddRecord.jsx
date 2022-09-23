@@ -21,7 +21,7 @@ const AddRecordForm = props => {
 			}}
 		>
 			<input className="form__input" type="text" placeholder="website" name="website" value={new_record.website} onChange={handleInputChange} /> <br />
-			<input className="form__input" type="text" placeholder="username" name="username" value={new_record.username} onChange={handleInputChange} />
+			<input className="form__input" type="text" placeholder="username" name="username" value={new_record.username} onChange={handleInputChange} /> <br />
 			<button className="button-6">Add new user</button>
 		</form>
     );

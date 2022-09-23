@@ -40,7 +40,7 @@ const ResList = () => {
       <h1> Your password Database </h1>
       <div>
         <FindRecord getAllRecord={getAllRecord} getRecord={getRecord} httpDelete={PasswordService.deleteById} httpUpdate={PasswordService.update}/>
-      </div>
+      </div><br />
       <div>
         <AddRecordForm addRecord={addRecord} />
       </div>

@@ -27,6 +27,7 @@ const FindRecord = props => {
     }
     
     const updateRecord = (id, updatedRecord) => {
+        setEditing(false);
         console.log(updatedRecord);
         const data = {...updatedRecord, iv: ''};
         props.httpUpdate(data)
@@ -80,7 +81,7 @@ const FindRecord = props => {
                         />
                     </div>
                 ): (
-                    <p>nothing</p>
+                    <p></p>
                 )}
             </div>
         </div>

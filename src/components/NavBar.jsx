@@ -11,9 +11,6 @@ export default function Navbar() {
         <div className="brand">
           <a href="/">🦀🔐 keyman</a>
         </div>
-        <div className="nav-mobile">
-          <a id="nav-toggle" href="#!"><span></span></a>
-        </div>
         <nav className="nav-list">
           <ul>
             <li><a href="/">Home</a></li>
